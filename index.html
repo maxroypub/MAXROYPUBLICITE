@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MAX ROY PUBLICITE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0; padding: 0;
+            color: #333;
+            direction: ltr;
+        }
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .service-item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 260px;
+            padding: 15px;
+            text-align: center;
+        }
+        .service-item img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media(max-width: 600px) {
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+            .service-item {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MAX ROY PUBLICITE</h1>
+        <p>Agence de publicité et marketing - Ain Sebaa, Casablanca</p>
+    </header>
+    <main>
+        <section>
+            <h2>À propos de nous</h2>
+            <p>Chez MAX ROY PUBLICITE, nous sommes spécialisés dans la publicité, le design graphique et le marketing digital. Notre objectif est de fournir des solutions créatives et efficaces pour aider nos clients à réussir.</p>
+        </section>
+
+        <section>
+            <h2>Nos Services</h2>
+            <div class="services">
+                <div class="service-item">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Conception de logos" />
+                    <h3>Conception de logos</h3>
+                    <p>Création d’identités visuelles uniques pour votre entreprise.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80" alt="Publicité digitale" />
+                    <h3>Publicité digitale</h3>
+                    <p>Campagnes publicitaires sur les réseaux sociaux et le web.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80" alt="Marketing sur les réseaux sociaux" />
+                    <h3>Marketing sur les réseaux sociaux</h3>
+                    <p>Gestion et promotion de votre présence sur les plateformes sociales.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80" alt="Conception de sites web" />
+                    <h3>Conception de sites web</h3>
+                    <p>Développement de sites web modernes et fonctionnels.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Contactez-nous</h2>
+            <p>Adresse : Ain Sebaa, Casablanca</p>
+            <p>Téléphone : 06 XX XX XX XX</p>
+            <p>Email : contact@maxroypublicite.ma</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 MAX ROY PUBLICITE - Tous droits réservés
+    </footer>
+</body>
+</html>
